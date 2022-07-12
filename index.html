@@ -9,56 +9,20 @@
 </head>
 
 <body>
-    <div id="create">
-        <table>
-            <tr>
-
-                <th>id</th>
+    <div>
+        <table id="root">
+            <thead>
+                <th>avatar</th>
                 <th>name</th>
                 <th>phone</th>
-                <th>email</th>
-                <th>avatar</th>
+                <th>email</th> 
                 <th>created-at</th>
                 <th>country</th>
-            </tr>
-
-            <!-- <tr v-for="(datases, index) of datas">
-                <td >{{ datases }}</td>
-
-            </tr> -->
-
-
-            <!-- <tr>
-                <td v-for="(datases, index) ">{{ value.id }}</td>
-                 
-            </tr> -->
-
-            <tr>
-                <td v-for="value in datas">{{ value.id }}</td>
-                <td v-for="value in datas">{{ value.name }}</td>
-                <td v-for="value in datas">{{ value.phone }}</td>
-                <td v-for="value in datas">{{ value.email }}</td>
-                <td v-for="value in datas">{{ value.avatar }}</td>
-                <td v-for="value in datas">{{ value.created_at }}</td>
-                <td v-for="value in datas">{{ value.country }}</td>   
-            </tr>
-
-            <!-- <tr>
-                <td v-for="values in datas">{{ values.id }}</td>
-                <td v-for="values in datas">{{ values.name }}</td>
-                <td v-for="values in datas">{{ values.phone }}</td>
-                <td v-for="values in datas">{{ values.email }}</td>
-                <td v-for="values in datas">{{ values.avatar }}</td>
-                <td v-for="values in datas">{{ values.created_at }}</td>
-                <td v-for="values in datas">{{ values.country }}</td>   
-            </tr> -->
-
-
-            <!-- <tr>     
-             <td v-for="values in details">{{ values }}</td>
-            </tr> -->
+            </thead>
+            <tbody id="table-body"></tbody>
 
         </table>
+
 
     </div>
 
